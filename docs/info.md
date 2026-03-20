@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Using 8 oscillators through an XOR chain, we can get a true random number due to PVT variations. 
 
 ## How to test
 
-Explain how to use your project
+Set VCTRL to be around the operating range of the VCRO (1.0-1.3 V), and then observe FOUT as the output is truely random.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+A power supply to power VCTRL, and an oscilloscope to examine the waveform given by FOUT
