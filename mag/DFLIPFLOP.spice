@@ -1,0 +1,32 @@
+** sch_path: /home/Rodin/codes/analogic/500pll/DFLIPFLOP.sch
+**.subckt DFLIPFLOP VDD D Q CLK NQ GND
+*.ipin CLK
+*.ipin D
+*.ipin VDD
+*.ipin GND
+*.opin Q
+*.opin NQ
+XM2 net1 D VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=6 nf=1 ad=1.74 as=1.74 pd=12.58 ps=12.58 nrd=0.0483333333333333
++ nrs=0.0483333333333333 sa=0 sb=0 sd=0 mult=1
+XM7 net2 D GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 ad=0.87 as=0.87 pd=6.58 ps=6.58 nrd=0.0966666666666667
++ nrs=0.0966666666666667 sa=0 sb=0 sd=0 mult=1
+XM1 net4 CLK VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=6 nf=1 ad=1.74 as=1.74 pd=12.58 ps=12.58 nrd=0.0483333333333333
++ nrs=0.0483333333333333 sa=0 sb=0 sd=0 mult=1
+XM3 NQ net4 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=6 nf=1 ad=1.74 as=1.74 pd=12.58 ps=12.58 nrd=0.0483333333333333
++ nrs=0.0483333333333333 sa=0 sb=0 sd=0 mult=1
+XM5 net2 CLK net1 VDD sky130_fd_pr__pfet_01v8 L=0.15 W=6 nf=1 ad=1.74 as=1.74 pd=12.58 ps=12.58 nrd=0.0483333333333333
++ nrs=0.0483333333333333 sa=0 sb=0 sd=0 mult=1
+XM6 Q NQ VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=6 nf=1 ad=1.74 as=1.74 pd=12.58 ps=12.58 nrd=0.0483333333333333
++ nrs=0.0483333333333333 sa=0 sb=0 sd=0 mult=1
+XM4 net3 CLK GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 ad=0.87 as=0.87 pd=6.58 ps=6.58 nrd=0.0966666666666667
++ nrs=0.0966666666666667 sa=0 sb=0 sd=0 mult=1
+XM8 net4 net2 net3 GND sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 ad=0.87 as=0.87 pd=6.58 ps=6.58 nrd=0.0966666666666667
++ nrs=0.0966666666666667 sa=0 sb=0 sd=0 mult=1
+XM9 NQ CLK net5 GND sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 ad=0.87 as=0.87 pd=6.58 ps=6.58 nrd=0.0966666666666667
++ nrs=0.0966666666666667 sa=0 sb=0 sd=0 mult=1
+XM10 net5 net4 GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 ad=0.87 as=0.87 pd=6.58 ps=6.58 nrd=0.0966666666666667
++ nrs=0.0966666666666667 sa=0 sb=0 sd=0 mult=1
+XM11 Q NQ GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 ad=0.87 as=0.87 pd=6.58 ps=6.58 nrd=0.0966666666666667
++ nrs=0.0966666666666667 sa=0 sb=0 sd=0 mult=1
+**.ends
+.end

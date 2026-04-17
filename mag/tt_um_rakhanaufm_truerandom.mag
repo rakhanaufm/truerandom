@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1774254433
+timestamp 1775719909
 << metal1 >>
 rect 11480 34680 12440 34880
 rect 8860 31880 9240 32080
@@ -525,63 +525,63 @@ timestamp 1774013447
 transform 0 1 17120 -1 0 14300
 box 460 -2720 3300 1880
 use VCO  VCO_0 ~/codes/analogic/mag
-timestamp 1774021207
+timestamp 1775715887
 transform 1 0 3220 0 1 30740
 box 1180 -740 5920 2138
 use VCO  VCO_1
-timestamp 1774021207
+timestamp 1775715887
 transform 1 0 3220 0 1 24820
 box 1180 -740 5920 2138
 use VCO  VCO_2
-timestamp 1774021207
+timestamp 1775715887
 transform 1 0 3220 0 1 18920
 box 1180 -740 5920 2138
 use VCO  VCO_3
-timestamp 1774021207
+timestamp 1775715887
 transform 1 0 3220 0 1 13020
 box 1180 -740 5920 2138
 use VCO  VCO_4
-timestamp 1774021207
+timestamp 1775715887
 transform -1 0 30782 0 -1 33140
 box 1180 -740 5920 2138
 use VCO  VCO_5
-timestamp 1774021207
+timestamp 1775715887
 transform -1 0 30782 0 -1 27240
 box 1180 -740 5920 2138
 use VCO  VCO_6
-timestamp 1774021207
+timestamp 1775715887
 transform -1 0 30782 0 -1 21340
 box 1180 -740 5920 2138
 use VCO  VCO_7
-timestamp 1774021207
+timestamp 1775715887
 transform -1 0 30782 0 -1 15420
 box 1180 -740 5920 2138
 use XOR  XOR_0 ~/codes/analogic/mag
-timestamp 1774110052
+timestamp 1775719909
 transform 1 0 12320 0 1 28080
 box 80 -1080 1660 2240
 use XOR  XOR_1
-timestamp 1774110052
+timestamp 1775719909
 transform 1 0 12320 0 1 17080
 box 80 -1080 1660 2240
 use XOR  XOR_2
-timestamp 1774110052
+timestamp 1775719909
 transform -1 0 21060 0 -1 29240
 box 80 -1080 1660 2240
 use XOR  XOR_3
-timestamp 1774110052
+timestamp 1775719909
 transform -1 0 21060 0 -1 18240
 box 80 -1080 1660 2240
 use XOR  XOR_4
-timestamp 1774110052
+timestamp 1775719909
 transform 1 0 14320 0 1 23080
 box 80 -1080 1660 2240
 use XOR  XOR_5
-timestamp 1774110052
+timestamp 1775719909
 transform -1 0 19060 0 -1 24240
 box 80 -1080 1660 2240
 use XOR  XOR_6
-timestamp 1774110052
+timestamp 1775719909
 transform 0 1 16140 -1 0 20660
 box 80 -1080 1660 2240
 << labels >>

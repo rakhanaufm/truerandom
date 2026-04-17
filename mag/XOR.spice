@@ -1,0 +1,21 @@
+* NGSPICE file created from XOR.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_MH3LLV B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_A6MZLZ B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.15
+.ends
+
+.subckt XOR
+XXM1 VSUBS XM9/D VSUBS XM9/G sky130_fd_pr__nfet_01v8_MH3LLV
+XXM2 XM9/S XM9/S XM7/G XM6/G sky130_fd_pr__pfet_01v8_A6MZLZ
+XXM3 XM9/D XM9/D VSUBS XM7/G sky130_fd_pr__pfet_01v8_A6MZLZ
+XXM4 XM9/G VSUBS XM9/G XM6/G sky130_fd_pr__pfet_01v8_A6MZLZ
+XXM5 VSUBS VSUBS XM9/D XM6/G sky130_fd_pr__nfet_01v8_MH3LLV
+XXM6 VSUBS VSUBS XM7/G XM6/G sky130_fd_pr__nfet_01v8_MH3LLV
+XXM7 VSUBS XM9/G VSUBS XM7/G sky130_fd_pr__nfet_01v8_MH3LLV
+XXM9 XM9/S XM9/D XM9/S XM9/G sky130_fd_pr__pfet_01v8_A6MZLZ
+.ends
+

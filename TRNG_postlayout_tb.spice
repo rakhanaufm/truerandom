@@ -1,0 +1,27 @@
+* Post-layout TRNG testbench
+.lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include /home/Rodin/codes/analogic/vcro130nm/tt_um_rakhanaufm_truerandom.spice
+
+* Power supplies
+VVDD VDPWR VGND 1.8
+VCTRL vctrl VGND DC 1.2
+VCLK clk_net VGND pulse(0 1.8 0 100p 100p 500n 1000n)
+
+* Pin order:
+* 1:clk 2:ena 3:rst_n 4:ua[0] 5:ua[2] 6:ua[3] 7:ua[4] 8:ua[5] 9:ua[6]
+* 10:ua[7] 11:ui_in[0] 12:ui_in[1] 13:ui_in[2] 14:ui_in[3] 15:ui_in[4] 16:ui_in[5] 17:ui_in[6] 18:ui_in[7] 19:uio_in[0]
+* 20:uio_in[1] 21:uio_in[2] 22:uio_in[3] 23:uio_in[4] 24:uio_in[5] 25:uio_in[6] 26:uio_in[7] 27:VDPWR 28:VGND
+xtrng clk_net 1.8 1.8 vctrl fout clk_net 0 0
++ 0 0 0 0 0 0 0 0 0 0
++ 0 0 0 0 0 0 0 VDPWR VGND
++ tt_um_rakhanaufm_truerandom
+
+.tran 1n 10u
+.save all
+
+.control
+run
+plot v(fout)
+.endc
+
+.end
