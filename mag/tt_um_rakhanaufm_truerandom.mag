@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1775719909
+timestamp 1776421255
 << metal1 >>
 rect 11480 34680 12440 34880
 rect 8860 31880 9240 32080
@@ -557,33 +557,33 @@ timestamp 1775715887
 transform -1 0 30782 0 -1 15420
 box 1180 -740 5920 2138
 use XOR  XOR_0 ~/codes/analogic/mag
-timestamp 1775719909
+timestamp 1776420672
 transform 1 0 12320 0 1 28080
-box 80 -1080 1660 2240
+box 80 -1090 1660 2240
 use XOR  XOR_1
-timestamp 1775719909
+timestamp 1776420672
 transform 1 0 12320 0 1 17080
-box 80 -1080 1660 2240
+box 80 -1090 1660 2240
 use XOR  XOR_2
-timestamp 1775719909
+timestamp 1776420672
 transform -1 0 21060 0 -1 29240
-box 80 -1080 1660 2240
+box 80 -1090 1660 2240
 use XOR  XOR_3
-timestamp 1775719909
+timestamp 1776420672
 transform -1 0 21060 0 -1 18240
-box 80 -1080 1660 2240
+box 80 -1090 1660 2240
 use XOR  XOR_4
-timestamp 1775719909
+timestamp 1776420672
 transform 1 0 14320 0 1 23080
-box 80 -1080 1660 2240
+box 80 -1090 1660 2240
 use XOR  XOR_5
-timestamp 1775719909
+timestamp 1776420672
 transform -1 0 19060 0 -1 24240
-box 80 -1080 1660 2240
+box 80 -1090 1660 2240
 use XOR  XOR_6
-timestamp 1775719909
+timestamp 1776420672
 transform 0 1 16140 -1 0 20660
-box 80 -1080 1660 2240
+box 80 -1090 1660 2240
 << labels >>
 flabel metal4 s 28766 44952 28826 45152 0 FreeSans 480 90 0 0 clk
 port 0 nsew signal input
